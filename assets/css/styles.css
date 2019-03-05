@@ -1,0 +1,186 @@
+body {
+  background-color: #1a1a1d;
+}
+
+#wrapper {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 340px;
+  height: 560px;
+  margin-top: 2.5rem;
+  background-color: white;
+  border: 5px solid #9a1750;
+  border-radius: 10%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+#headphones {
+    position: relative;
+    left: 10px;
+    top: 8px;
+    font-size: 40px;
+    color: rgb(255, 45, 85);
+    transition: color, 1s;
+    margin-right: 25px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 28px;
+    width: 260px;
+    height: 260px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 10px 8px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
+}
+
+#title {
+  width: 280px;
+  position: relative;
+  left: 30px;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  font-size: 19px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #1a1a1d;
+  width: 280px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  transition: 0.4s;
+
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+h1:hover {
+  margin-left: -20px;
+  overflow: visible;
+}
+
+#waveform {
+    height: 75px;
+    width: 280px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    padding: 10px 0 10px 0;
+    transition: 0.5s ease;
+}
+
+canvas, wave{
+  height: 60px;
+
+}
+
+#waveform wave {
+  height: 60px !important;
+}
+
+hr {
+  width: 300px;
+  position: relative;
+  top: 3px;
+  margin-bottom: 0px;
+}
+
+#controls {
+  text-align: center;
+  position: relative;
+  top: 5px;
+  bottom: 10px;
+
+}
+
+#play {
+  position: relative;
+  top: 3px;
+  font-size: 50px;
+  color: rgb(255, 45, 85);
+  animation-duration: 0.6s;
+}
+
+#next, #previous {
+  padding-top: 50px;
+  padding: 12px;
+  font-size: 35px;
+  color: rgb(255, 45, 85);
+  animation-duration: 0.6s;
+}
+
+#list {
+  position: relative;
+  right: 20px;
+  bottom: 6px;
+  font-size: 20px;
+  color: rgb(255, 45, 85);
+  animation-duration: 0.6s;
+}
+
+#repeat {
+  position: relative;
+  left: 20px;
+  bottom: 6px;
+  font-size: 20px;
+  color: rgb(255, 45, 85);
+  animation-duration: 0.6s;
+}
+
+#overlay {
+  z-index: 2;
+  position: absolute;
+  bottom: -1px;
+  width: 340px;
+  height: 508px;
+  margin: 0 auto;
+  border-radius: 10%;
+  background-color: rgba(255, 45, 85, 0.93);
+  display: none;
+}
+
+#chevronDownIcon {
+  color: white;
+  font-size: 35px;
+  position: relative;
+  top: 12px;
+  left: 152px;
+  bottom: 7px;
+}
+
+#chevronDownIcon:hover {
+  color: black;
+}
+
+ol {
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+li {
+  color: white;
+  margin: 12px 0;
+  transition: 0.4s;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.volumeSelected {
+  display: none;
+}
