@@ -16,7 +16,7 @@ Have fun with the music player by opening the "index.html" file inside the downl
 
 ## Built With
 
-* [Javascript (https://www.javascript.com/) - High-level, interpreted programming language
+* [Javascript] (https://www.javascript.com/) - High-level, interpreted programming language
 * [Howler.js] (https://howlerjs.com/) - JavaScript audio library for modern web
 * [BootStrap] (https://getbootstrap.com/) - Front-End Framework
 * [HTML] (https://www.html.com/) - Standard markup language
