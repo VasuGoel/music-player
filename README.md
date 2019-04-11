@@ -28,7 +28,7 @@ Have fun with the music player by opening the "index.html" file inside the downl
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/VasuGoel/Music-Player/blob/master/LICENSE) for details about License.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/VasuGoel/music-player/blob/master/LICENSE) for details about License.
 ## Acknowledgments
 
 * Got the idea to build my own music player while listening to Apple Music
